@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted   # <-- change this from ubuntu-latest to self-hosted
 
     steps:
       - name: Checkout code
@@ -17,11 +17,6 @@ jobs:
         uses: azure/setup-kubectl@v3
         with:
           version: 'latest'
-
-      - name: Create kubeconfig file
-        run: |
-          echo "${{ secrets.KUBECONFIG_DATA }}" > kubeconfig
-          export KUBECONFIG=$PWD/kubeconfig
 
       - name: Apply Kubernetes manifests
         run: |
