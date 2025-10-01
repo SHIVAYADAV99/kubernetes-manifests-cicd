@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "LTP-E14-LPT224",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus13.actions.githubusercontent.com/C9WtIzE18TbqZ5I6A3psQ379yBldwYUBcjKszNY4aKrYnE9onm/",
+  "gitHubUrl": "https://github.com/SHIVAYADAV99/kubernetes-manifests-cicd",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
