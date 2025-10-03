@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "SHIVAYADAV99/kubernetes-manifests-cicd",
+  "pipelineDirectory": "kubernetes-manifests-cicd",
+  "workspaceDirectory": "kubernetes-manifests-cicd\\kubernetes-manifests-cicd",
+  "repositories": {
+    "SHIVAYADAV99/kubernetes-manifests-cicd": {
+      "repositoryPath": "kubernetes-manifests-cicd\\kubernetes-manifests-cicd",
+      "lastRunOn": "10/01/2025 16:56:40 +05:30"
+    }
+  },
+  "lastRunOn": "10/01/2025 16:56:40 +05:30"
+}
